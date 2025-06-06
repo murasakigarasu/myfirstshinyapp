@@ -4,6 +4,7 @@ if (!requireNamespace("stopwords", quietly = TRUE)) {
 }
 
 library(shiny)
+library(reticulate)
 library(keras3)
 library(recipes)
 library(tibble)
