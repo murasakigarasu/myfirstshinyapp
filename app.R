@@ -14,7 +14,7 @@ library(ggplot2)
 library(textrecipes)
 library(bslib)
 
-#virtualenv_create("myappenv")
+virtualenv_create("myappenv")
 use_virtualenv("myappenv", required = TRUE)
 virtualenv_install("myappenv", c("tensorflow", "keras"))
 
